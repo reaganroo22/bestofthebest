@@ -1,5 +1,7 @@
+
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import CTAButton from "@/components/CTAButton";
 
 const NotFound = () => {
   const location = useLocation();
@@ -12,15 +14,17 @@ const NotFound = () => {
   }, [location.pathname]);
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">404</h1>
-        <p className="text-xl text-gray-600 mb-4">Oops! Page not found</p>
-        <a href="/" className="text-blue-500 hover:text-blue-700 underline">
-          Return to Home
-        </a>
+    <section className="py-24 bg-therapy-light">
+      <div className="therapy-container">
+        <div className="max-w-2xl mx-auto text-center">
+          <h1 className="text-5xl font-serif mb-6 text-therapy-dark">Page Not Found</h1>
+          <p className="text-xl mb-8">
+            We couldn't find the page you're looking for. Let's get you back on track.
+          </p>
+          <CTAButton text="Return to Home" href="/" />
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 
