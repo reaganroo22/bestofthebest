@@ -1,6 +1,5 @@
 
 import { useState, useEffect } from "react";
-import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 const MeetKristen = () => {
   const [loaded, setLoaded] = useState(false);
@@ -21,27 +20,27 @@ const MeetKristen = () => {
                 <p className="mb-1">MA, Professional Counseling</p>
                 <p className="mb-1">MA, School Counseling</p>
                 <p className="mb-4">Certified Professional Life Coach</p>
-                <div className="w-48 mx-auto my-6">
-                  <AspectRatio ratio={1 / 1} className="overflow-hidden rounded-lg">
-                    <img 
-                      src="/lovable-uploads/4a00d163-cd94-45d5-9ebf-d082df9eee85.png" 
-                      alt="CPC Certification"
-                      className="object-contain w-full h-full"
-                    />
-                  </AspectRatio>
+                <div className="w-32 h-32 rounded-lg overflow-hidden my-6">
+                  <img 
+                    src="/lovable-uploads/4a00d163-cd94-45d5-9ebf-d082df9eee85.png" 
+                    alt="CPC Certification" 
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
             </div>
 
-            {/* Right Column - Profile Photo */}
+            {/* Right Column - Photo and Logo */}
             <div className="rounded-lg overflow-hidden">
-              <AspectRatio ratio={3 / 4} className="bg-therapy-light">
-                <img 
-                  src="/lovable-uploads/77fb5b2b-1f39-4c44-8559-56c83cd00c14.png"
-                  alt="Kristen Williams" 
-                  className="object-cover w-full h-full rounded-lg"
-                />
-              </AspectRatio>
+              <div className="h-full flex flex-col">
+                <div className="h-96 overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/77fb5b2b-1f39-4c44-8559-56c83cd00c14.png"
+                    alt="Kristen Williams" 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              </div>
             </div>
           </div>
 
