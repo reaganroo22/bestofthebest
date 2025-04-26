@@ -1,5 +1,6 @@
 
 import { useState, useEffect } from "react";
+import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 const MeetKristen = () => {
   const [loaded, setLoaded] = useState(false);
@@ -22,7 +23,7 @@ const MeetKristen = () => {
                 <p className="mb-4">Certified Professional Life Coach</p>
                 <div className="w-32 h-32 rounded-lg overflow-hidden my-6">
                   <img 
-                    src="/lovable-uploads/4a00d163-cd94-45d5-9ebf-d082df9eee85.png" 
+                    src="https://growingonthego.com/wp-content/uploads/2023/01/CPC-certified-300x300.jpg" 
                     alt="CPC Certification" 
                     className="w-full h-full object-cover"
                   />
@@ -33,13 +34,13 @@ const MeetKristen = () => {
             {/* Right Column - Photo and Logo */}
             <div className="rounded-lg overflow-hidden">
               <div className="h-full flex flex-col">
-                <div className="h-96 overflow-hidden">
+                <AspectRatio ratio={3/4} className="h-full">
                   <img 
-                    src="/lovable-uploads/77fb5b2b-1f39-4c44-8559-56c83cd00c14.png"
+                    src="https://growingonthego.com/wp-content/uploads/2023/01/About-Kristen-Williams-768x1024.jpg"
                     alt="Kristen Williams" 
                     className="w-full h-full object-cover"
                   />
-                </div>
+                </AspectRatio>
               </div>
             </div>
           </div>

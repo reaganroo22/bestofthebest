@@ -35,7 +35,7 @@ const Services = () => {
             <div>
               <ServiceCard 
                 title="50 Minute Personal Development"
-                image="/lovable-uploads/edeb7df3-ce51-45bb-93f8-b3bd75fd3c85.png"
+                image="https://growingonthego.com/wp-content/uploads/2023/01/flower-4242450_1280-1-768x512.jpg"
                 buttonText="Book Now >"
               >
                 <p>One-on-one virtual sessions focused on your unique needs and goals.</p>
@@ -65,7 +65,7 @@ const Services = () => {
 
           <div className="mt-8 text-center">
             <img 
-              src="/lovable-uploads/4a00d163-cd94-45d5-9ebf-d082df9eee85.png" 
+              src="https://growingonthego.com/wp-content/uploads/2023/01/CPC-certified-300x300.jpg" 
               alt="Certified Professional Coach" 
               className="w-48 h-48 object-contain mx-auto"
             />

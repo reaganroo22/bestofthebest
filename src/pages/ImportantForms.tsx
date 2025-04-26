@@ -70,8 +70,8 @@ const ImportantForms = () => {
             <div className="mt-10 text-center">
               <p className="text-sm text-therapy-text/80">
                 If you're having trouble downloading or completing these forms, please contact me directly at{" "}
-                <a href="mailto:Kristen@GrowingontheGo.com" className="text-therapy-dark hover:underline">
-                  Kristen@GrowingontheGo.com
+                <a href="mailto:kristen@growingonthego.com" className="text-therapy-dark hover:underline">
+                  kristen@growingonthego.com
                 </a>
               </p>
             </div>
