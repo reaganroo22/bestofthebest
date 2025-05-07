@@ -38,7 +38,7 @@ const MeetKristen = () => {
               <div className="h-full flex flex-col">
                 <AspectRatio ratio={3/4} className="h-full">
                   <img 
-                    src="/lovable-uploads/b30290d3-6f57-4031-b4cf-8766da72796a.png"
+                    src="/lovable-uploads/c73a5d2d-ec6c-43d7-bb68-6cc39de158c5.png"
                     alt="Kristen Williams" 
                     className="w-full h-full object-cover"
                   />

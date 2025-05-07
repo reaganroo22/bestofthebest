@@ -54,14 +54,6 @@ const WhyETherapy = () => {
               Begin your journey toward greater peace and personal growth from wherever you are. All you need is a private space and an internet connection.
             </p>
           </div>
-          
-          <div className="mt-8 text-center">
-            <img 
-              src="/lovable-uploads/4ef0d230-a4b6-468d-aea3-b51fc2974e47.png" 
-              alt="E-therapy illustration" 
-              className="max-w-md mx-auto"
-            />
-          </div>
         </div>
       </section>
     </div>
