@@ -22,7 +22,7 @@ const MeetKristen = () => {
                 <p className="mb-4">Certified Professional Life Coach</p>
                 <div className="w-32 h-32 rounded-lg overflow-hidden my-6">
                   <img 
-                    src="https://i.imgur.com/jPpXXUK.png" 
+                    src="/lovable-uploads/77fb5b2b-1f39-4c44-8559-56c83cd00c14.png" 
                     alt="CPC Certification" 
                     className="w-full h-full object-cover"
                   />
@@ -38,7 +38,7 @@ const MeetKristen = () => {
               <div className="h-full flex flex-col">
                 <AspectRatio ratio={3/4} className="h-full">
                   <img 
-                    src="https://i.imgur.com/pQVH1xd.jpg"
+                    src="/lovable-uploads/b30290d3-6f57-4031-b4cf-8766da72796a.png"
                     alt="Kristen Williams" 
                     className="w-full h-full object-cover"
                   />
