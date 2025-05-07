@@ -20,7 +20,7 @@ const Contact = () => {
   
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Form submitted to kristen@growingonthego.com:", formData);
+    console.log("Form submitted to growingonthego@gmail.com:", formData);
     
     // Show success toast
     toast({
@@ -59,10 +59,10 @@ const Contact = () => {
               <div className="mb-6">
                 <h3 className="text-lg font-serif mb-2">Email</h3>
                 <a 
-                  href="mailto:kristen@growingonthego.com"
+                  href="mailto:growingonthego@gmail.com"
                   className="text-therapy-dark hover:underline"
                 >
-                  kristen@growingonthego.com
+                  growingonthego@gmail.com
                 </a>
               </div>
               

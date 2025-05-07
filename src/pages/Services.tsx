@@ -37,6 +37,8 @@ const Services = () => {
                 title="50 Minute Personal Development"
                 image="https://growingonthego.com/wp-content/uploads/2023/01/flower-4242450_1280-1-768x512.jpg"
                 buttonText="Book Now >"
+                buttonLink="https://kmwellnessllc.clientsecure.me"
+                externalLink={true}
               >
                 <p>One-on-one virtual sessions focused on your unique needs and goals.</p>
               </ServiceCard>

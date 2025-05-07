@@ -9,6 +9,7 @@ interface ServiceCardProps {
   buttonText?: string;
   buttonLink?: string;
   className?: string;
+  externalLink?: boolean;
 }
 
 const ServiceCard = ({
@@ -17,6 +18,7 @@ const ServiceCard = ({
   children,
   buttonText = "Book Now",
   buttonLink = "/contact",
+  externalLink = false,
   className = "",
 }: ServiceCardProps) => {
   return (
@@ -33,7 +35,18 @@ const ServiceCard = ({
       <div className="p-6 bg-white">
         <h3 className="font-serif text-2xl mb-3">{title}</h3>
         {children && <div className="mb-4 text-therapy-text">{children}</div>}
-        <CTAButton text={buttonText} href={buttonLink} />
+        {externalLink ? (
+          <a 
+            href={buttonLink}
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="btn-therapy inline-block"
+          >
+            {buttonText}
+          </a>
+        ) : (
+          <CTAButton text={buttonText} href={buttonLink} />
+        )}
       </div>
     </div>
   );

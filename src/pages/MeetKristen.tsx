@@ -13,13 +13,12 @@ const MeetKristen = () => {
     <div className={`transition-opacity duration-500 ${loaded ? "opacity-100" : "opacity-0"}`}>
       <section className="py-12">
         <div className="therapy-container">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            {/* Left Column - Bio Information */}
-            <div className="bg-therapy-light rounded-lg p-8">
-              <h1 className="text-3xl font-serif mb-3">Meet <br />Kristen <br />Williams</h1>
-              <div className="mb-6">
-                <p className="mb-1">MA, Professional Counseling</p>
-                <p className="mb-1">MA, School Counseling</p>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            {/* Left Column - Bio */}
+            <div>
+              <h1 className="text-4xl font-serif mb-8 text-therapy-dark">Meet Kristen</h1>
+              <div className="prose max-w-none">
+                <h2 className="text-2xl font-serif mb-4">Kristen Williams</h2>
                 <p className="mb-4">Certified Professional Life Coach</p>
                 <div className="w-32 h-32 rounded-lg overflow-hidden my-6">
                   <img 
@@ -28,9 +27,12 @@ const MeetKristen = () => {
                     className="w-full h-full object-cover"
                   />
                 </div>
+                <p className="mb-4">I am a Certified Professional Life Coach, former teacher, active community volunteer, and mom on a mission. I've always had a passion for helping people achieve their goals.</p>
+                <p className="mb-4">After a 7-year teaching career and starting a family, I earned my coaching certification and founded Growing on the Go to help others navigate life's challenges and discover their best selves.</p>
+                <p className="mb-4">When I'm not coaching, I'm spending time with my family, creating cozy spaces at home, and staying active in my community. I served on the board for Frisco Santa Charities and enjoy finding ways to give back.</p>
               </div>
             </div>
-
+            
             {/* Right Column - Photo and Logo */}
             <div className="rounded-lg overflow-hidden">
               <div className="h-full flex flex-col">
@@ -42,30 +44,6 @@ const MeetKristen = () => {
                   />
                 </AspectRatio>
               </div>
-            </div>
-          </div>
-
-          {/* Biography */}
-          <div className="mt-8 bg-white p-8 rounded-lg shadow-sm">
-            <div className="prose max-w-none">
-              <p className="mb-4">
-                Hi, I'm Kristen Williams. I have a passion for helping people discover greater happiness and peace of mind through personal development coaching. I offer virtual sessions for youth and adults; anyone looking to experience a change in their lives.
-              </p>
-              <p className="mb-4">
-                I earned my undergraduate degree in Psychology from Southern Methodist University and I hold master's degrees in both School Counseling and Professional Counseling. While my career began as an 8th grade teacher, it wasn't long before I discovered that my heart was drawn toward counseling. I was more fulfilled when I could walk alongside someone on their journey toward mental wellness and personal growth.
-              </p>
-              <p className="mb-4">
-                Following eight years serving as a school counselor, I made the decision to stay home as a full-time mother. While raising my kids is my most important role in life, there remains a tug on my heart to support others in their journey toward happier, healthier lives. Now, more than ever before, many people are stressed, anxious, or lacking peace of mind or vision for their future.
-              </p>
-              <p className="mb-4">
-                As a busy mother of two with a husband who travels often, I understand the pressures that we're all facing. Talking through it with a qualified personal development coach may help alleviate some of the anxiety that often accompanies those pressures.
-              </p>
-              <p className="mb-4">
-                Whether you have barriers that make it difficult to attend face-to-face sessions, or you simply prefer the convenience of your own home, consider trying e-therapy. Online sessions are proven to be just as effective for most people and in today's busy world, many people prefer it. At Growing on the Go, we're dedicated to providing personal development coaching that fits into your busy life. Log in from your home, office, the car — or from a closet while hiding from your kids! Whatever you're facing, if you're eager to take steps to improve your life, I'm ready to help you.
-              </p>
-              <p className="italic border-l-4 border-therapy pl-4 text-sm">
-                On a personal note: When Kristen isn't busy serving her clients at Growing on the Go, she also manages KMWellness, LLC, which offers CBD, liquid collagens, and other wellness products. Kristen serves as co-founder of Frisco Santa Charities, a nonprofit organization that has raised over $100,000 for local charities. She and her family enjoy spending time on their farm, playing sports, and taking care of their sweet pets (two dogs and a tortoise).
-              </p>
             </div>
           </div>
         </div>
