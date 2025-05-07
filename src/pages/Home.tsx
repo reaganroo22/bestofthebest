@@ -16,7 +16,7 @@ const Home = () => {
       <section className="min-h-[70vh] bg-therapy-light relative flex items-center">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1500673922987-e212871fec22"
+            src="/lovable-uploads/edeb7df3-ce51-45bb-93f8-b3bd75fd3c85.png"
             alt="Beach boardwalk"
             className="w-full h-full object-cover opacity-50"
           />
@@ -27,7 +27,14 @@ const Home = () => {
             <p className="text-xl mb-8 leading-relaxed">
               You probably never expected to be here and that's okay. I'm ready to meet you where you are to help you find hope again.
             </p>
-            <CTAButton text="Book an Appointment" />
+            <a 
+              href="https://kmwellnessllc.clientsecure.me"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-therapy inline-block"
+            >
+              Book an Appointment
+            </a>
           </div>
         </div>
       </section>
@@ -56,10 +63,10 @@ const Home = () => {
         <div className="therapy-container text-center">
           <h2 className="text-3xl font-serif mb-6">Your personal development begins here:</h2>
           <a 
-            href="mailto:Kristen@GrowingontheGo.com"
+            href="mailto:growingonthego@gmail.com"
             className="text-xl text-therapy-dark hover:underline font-medium"
           >
-            Kristen@GrowingontheGo.com
+            growingonthego@gmail.com
           </a>
         </div>
       </section>
