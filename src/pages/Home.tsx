@@ -16,7 +16,7 @@ const Home = () => {
       <section className="min-h-[70vh] bg-therapy-light relative flex items-center">
         <div className="absolute inset-0 z-0">
           <img
-            src="/lovable-uploads/edeb7df3-ce51-45bb-93f8-b3bd75fd3c85.png"
+            src="https://i.imgur.com/9BmMcFI.jpg"
             alt="Beach boardwalk"
             className="w-full h-full object-cover opacity-50"
           />

@@ -35,7 +35,7 @@ const Services = () => {
             <div>
               <ServiceCard 
                 title="50 Minute Personal Development"
-                image="/lovable-uploads/edeb7df3-ce51-45bb-93f8-b3bd75fd3c85.png"
+                image="https://i.imgur.com/9BmMcFI.jpg"
                 buttonText="Book Now >"
                 buttonLink="https://kmwellnessllc.clientsecure.me"
                 externalLink={true}
@@ -67,7 +67,7 @@ const Services = () => {
 
           <div className="mt-8 text-center">
             <img 
-              src="/lovable-uploads/77fb5b2b-1f39-4c44-8559-56c83cd00c14.png" 
+              src="https://i.imgur.com/jPpXXUK.png" 
               alt="Certified Professional Coach" 
               className="w-48 h-48 object-contain mx-auto"
             />
