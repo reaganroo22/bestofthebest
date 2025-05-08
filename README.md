@@ -1,33 +1,31 @@
-# Welcome to your Lovable project
+# Growing on The Go
 
-## Project info
+Personal development coaching designed to fit into your busy lifestyle.
 
-**URL**: https://lovable.dev/projects/1b230869-e9d2-4bff-8eb6-284165464c0b
+## About This Project
 
-## How can I edit this code?
+This website has been developed for Kristen Williams to provide personal development coaching services. It features modern design, responsive interface, and optimized user experience.
 
-There are several ways of editing your application.
+## Technologies Used
 
-**Use Lovable**
+This project is built with:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1b230869-e9d2-4bff-8eb6-284165464c0b) and start prompting.
+- Vite
+- TypeScript
+- React
+- Tailwind CSS
+- Framer Motion
 
-Changes made via Lovable will be committed automatically to this repo.
+## Development
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+Follow these steps to run the project locally:
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+git clone https://github.com/reaganroo22/bestofthebest.git
 
 # Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+cd bestofthebest
 
 # Step 3: Install the necessary dependencies.
 npm i
@@ -36,38 +34,10 @@ npm i
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Features
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/1b230869-e9d2-4bff-8eb6-284165464c0b) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+- Responsive design for all devices
+- Modern UI with smooth animations
+- Optimized loading for better performance
+- SEO-friendly structure
+- Accessibility compliance

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { Facebook, Instagram, Linkedin, Mail, Heart } from "lucide-react";
+import { Mail, Heart } from "lucide-react";
 
 const currentYear = new Date().getFullYear();
 
@@ -32,40 +32,14 @@ export default function Footer() {
             <p className="text-sm mb-4">
               Personal development coaching designed to fit into your busy lifestyle.
             </p>
-            <div className="flex space-x-4">
-              <a 
-                href="https://facebook.com" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-therapy-dark hover:text-therapy transition-colors"
-                aria-label="Facebook"
-              >
-                <Facebook size={20} />
-              </a>
-              <a 
-                href="https://instagram.com" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-therapy-dark hover:text-therapy transition-colors"
-                aria-label="Instagram"
-              >
-                <Instagram size={20} />
-              </a>
-              <a 
-                href="https://linkedin.com" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-therapy-dark hover:text-therapy transition-colors"
-                aria-label="LinkedIn"
-              >
-                <Linkedin size={20} />
-              </a>
+            <div className="flex">
               <a 
                 href="mailto:growingonthego@gmail.com" 
                 className="text-therapy-dark hover:text-therapy transition-colors"
                 aria-label="Email"
               >
                 <Mail size={20} />
+                <span className="ml-2">growingonthego@gmail.com</span>
               </a>
             </div>
           </div>
