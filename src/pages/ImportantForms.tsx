@@ -1,6 +1,5 @@
-
 import { useState, useEffect } from "react";
-import { Button } from "@/components/ui/button";
+import { Button } from "../components/ui/button";
 
 const ImportantForms = () => {
   const [loaded, setLoaded] = useState(false);
@@ -23,7 +22,7 @@ const ImportantForms = () => {
             
             <div className="text-center mb-8">
               <a 
-                href="https://kmwellnessllc.clientsecure.me"
+                href="https://growingonthego.clientsecure.me"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-therapy inline-block"

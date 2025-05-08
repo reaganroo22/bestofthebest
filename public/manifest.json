@@ -1,0 +1,24 @@
+{
+  "name": "Growing on The Go - Personal Development",
+  "short_name": "Growing on The Go",
+  "description": "Personal development coaching that fits into your busy lifestyle",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#4AA37A",
+  "icons": [
+    {
+      "src": "/lovable-uploads/logoicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/lovable-uploads/logoicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "orientation": "portrait",
+  "categories": ["lifestyle", "health", "coaching", "personal development"],
+  "lang": "en-US"
+} 

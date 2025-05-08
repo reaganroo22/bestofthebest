@@ -1,4 +1,3 @@
-
 import { ReactNode } from "react";
 import CTAButton from "./CTAButton";
 
@@ -24,11 +23,11 @@ const ServiceCard = ({
   return (
     <div className={`overflow-hidden rounded-lg shadow-sm ${className}`}>
       {image && (
-        <div className="h-48 overflow-hidden">
+        <div className="h-64 overflow-hidden">
           <img
             src={image}
             alt={title}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-contain"
           />
         </div>
       )}

@@ -1,15 +1,10 @@
-
 import type { Config } from "tailwindcss";
 
-export default {
-	darkMode: ["class"],
+const config = {
 	content: [
-		"./pages/**/*.{ts,tsx}",
-		"./components/**/*.{ts,tsx}",
-		"./app/**/*.{ts,tsx}",
-		"./src/**/*.{ts,tsx}",
+		"./index.html",
+		"./src/**/*.{js,ts,jsx,tsx}",
 	],
-	prefix: "",
 	theme: {
 		container: {
 			center: true,
@@ -64,11 +59,14 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				therapy: {
-					light: '#e7efdf',  // Light pastel green
-					DEFAULT: '#8a9f7a', // Medium sage green
-					dark: '#5c6d48',   // Dark olive green
-					text: '#4a5038'    // Dark text color for contrast
-				}
+					DEFAULT: "#4AA37A",
+					dark: "#2D6847",
+					light: "#E9F5F0",
+					text: "#333333",
+				},
+				borderColor: {
+					DEFAULT: "#e5e7eb", // default border color (gray-200)
+				},
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -76,8 +74,8 @@ export default {
 				sm: 'calc(var(--radius) - 4px)'
 			},
 			fontFamily: {
-				serif: ['Lora', 'serif'],
-				sans: ['Open Sans', 'sans-serif'],
+				serif: ["Lora", "ui-serif", "Georgia"],
+				sans: ["Open Sans", "ui-sans-serif", "system-ui"],
 			},
 			keyframes: {
 				'accordion-down': {
@@ -91,14 +89,50 @@ export default {
 				'fade-in': {
 					'0%': { opacity: '0', transform: 'translateY(10px)' },
 					'100%': { opacity: '1', transform: 'translateY(0)' }
-				}
+				},
+				gradient: {
+					'0%, 100%': { backgroundPosition: '0% 50%' },
+					'50%': { backgroundPosition: '100% 50%' },
+				},
+				fadeIn: {
+					'0%': { opacity: '0' },
+					'100%': { opacity: '1' },
+				},
+				fadeOut: {
+					'0%': { opacity: '1' },
+					'100%': { opacity: '0' },
+				},
+				slideUp: {
+					'0%': { transform: 'translateY(20px)', opacity: '0' },
+					'100%': { transform: 'translateY(0)', opacity: '1' },
+				},
+				slideDown: {
+					'0%': { transform: 'translateY(-20px)', opacity: '0' },
+					'100%': { transform: 'translateY(0)', opacity: '1' },
+				},
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
-				'fade-in': 'fade-in 0.6s ease-out'
-			}
+				'fade-in': 'fade-in 0.6s ease-out',
+				'gradient': 'gradient 15s ease infinite',
+				'fade-out': 'fadeOut 0.5s ease-in-out',
+				'slide-up': 'slideUp 0.5s ease-in-out',
+				'slide-down': 'slideDown 0.5s ease-in-out',
+			},
+			backgroundImage: {
+				'therapy-gradient': 'linear-gradient(135deg, #4AA37A 0%, #2D6847 100%)',
+			},
+			boxShadow: {
+				'soft': '0 2px 15px -3px rgba(0,0,0,0.07), 0 10px 20px -2px rgba(0,0,0,0.04)',
+			},
 		}
 	},
-	plugins: [require("tailwindcss-animate")],
+	plugins: [
+		require("@tailwindcss/typography"),
+		require("@tailwindcss/forms"),
+		require("@tailwindcss/aspect-ratio"),
+	],
 } satisfies Config;
+
+export default config;

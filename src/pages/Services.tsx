@@ -1,6 +1,5 @@
-
 import { useState, useEffect } from "react";
-import ServiceCard from "@/components/ServiceCard";
+import ServiceCard from "../components/ServiceCard";
 
 const Services = () => {
   const [loaded, setLoaded] = useState(false);
@@ -35,9 +34,9 @@ const Services = () => {
             <div>
               <ServiceCard 
                 title="50 Minute Personal Development"
-                image="/lovable-uploads/f7608c80-5c87-45b1-8e50-3433e76f6aea.png"
+                image="/lovable-uploads/fd70b4cd-c81c-49a9-929e-3449ce080f04.png"
                 buttonText="Book Now >"
-                buttonLink="https://kmwellnessllc.clientsecure.me"
+                buttonLink="https://growingonthego.clientsecure.me"
                 externalLink={true}
               >
                 <p>One-on-one virtual sessions focused on your unique needs and goals.</p>
@@ -66,11 +65,13 @@ const Services = () => {
           </div>
 
           <div className="mt-8 text-center">
-            <img 
-              src="/lovable-uploads/77fb5b2b-1f39-4c44-8559-56c83cd00c14.png" 
-              alt="Certified Professional Coach" 
-              className="w-48 h-48 object-contain mx-auto"
-            />
+            <div className="w-16 h-auto mx-auto">
+              <img 
+                src="/lovable-uploads/imagecertificiation.png" 
+                alt="Certified Professional Coach" 
+                className="w-full object-contain mx-auto"
+              />
+            </div>
             <p className="mt-2 text-sm text-therapy-text/80">Coaching 101: Professional Coach Certification</p>
           </div>
         </div>

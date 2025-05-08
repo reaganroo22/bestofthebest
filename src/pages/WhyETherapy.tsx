@@ -1,6 +1,5 @@
-
 import { useState, useEffect } from "react";
-import InfoCard from "@/components/InfoCard";
+import InfoCard from "../components/InfoCard";
 import { Leaf } from "lucide-react";
 
 const WhyETherapy = () => {
